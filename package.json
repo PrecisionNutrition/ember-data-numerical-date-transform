@@ -1,6 +1,6 @@
 {
   "name": "ember-data-numerical-date-transform",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/PrecisionNutrition/ember-data-numerical-date-transform",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "James F. Herdman <james@precisionnutrition.com>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -38,7 +38,11 @@
     "ember-try": "~0.0.8"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember data",
+    "transform",
+    "date",
+    "epoch"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
