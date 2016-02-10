@@ -5,7 +5,7 @@ Converts dates represented as seconds since epoch to and from raw Dates.
 ## Example
 
 ```javascript
-# In your model...
+// In your model...
 import DS from 'ember-data';
 
 const {
