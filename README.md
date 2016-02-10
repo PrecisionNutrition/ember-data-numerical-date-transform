@@ -1,26 +1,19 @@
-# Ember-data-numerical-date-transform
+# ember-data-numerical-date-transform
 
-This README outlines the details of collaborating on this Ember addon.
+Converts dates represented as seconds since epoch to and from raw Dates.
 
-## Installation
+## Example
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```javascript
+# In your model...
+import DS from 'ember-data';
 
-## Running
+const {
+  attr,
+  Model
+} = DS;
 
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+export default Model.extend({
+  myDate: attr('numerical-date')
+});
+```
