@@ -1,6 +1,6 @@
 {
   "name": "@precision-nutrition/ember-data-numerical-date-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "test": "tests"
