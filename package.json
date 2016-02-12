@@ -1,9 +1,8 @@
 {
-  "name": "ember-data-numerical-date-transform",
+  "name": "@precision-nutrition/ember-data-numerical-date-transform",
   "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -11,7 +10,10 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/PrecisionNutrition/ember-data-numerical-date-transform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrecisionNutrition/ember-data-numerical-date-transform.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -49,5 +51,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/PrecisionNutrition/ember-data-numerical-date-transform/issues"
+  },
+  "homepage": "https://github.com/PrecisionNutrition/ember-data-numerical-date-transform#readme",
+  "main": "index.js"
 }
