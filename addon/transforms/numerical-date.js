@@ -1,6 +1,4 @@
-import DS from 'ember-data';
-
-const Transform = DS.Transform;
+import Transform from 'ember-data/transform';
 
 /**
  * Converts an attribute representing a Date as seconds since epoch into a Date
